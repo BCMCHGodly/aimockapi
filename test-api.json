@@ -1,0 +1,84 @@
+{
+  "currentUser": {
+    "userID": "USR789",
+    "userName": "Dr. Admin",
+    "departmentID": "DEPT101",
+    "department": "Cardiology"
+  },
+  "patient": {
+    "registrationNumber": "REG123456",
+    "name": "John Doe",
+    "dob": "2000-09-12",
+    "gender": "Male",
+    "vitals": {
+      "bloodPressure": "120/80 mmHg",
+      "GRBS": "130 mg/dL"
+    },
+    "visitInfo": {
+      "firstTimeVisitToHospital": false,
+      "firstTimeVisitToDepartment": false,
+      "firstTimeVisitToDoctor": false
+    }
+  },
+  "encounter": {
+    "visitHistory": [
+      {
+        "date": "2024-06-01",
+        "consultantID": "DOC001",
+        "consultantName": "Dr. Smith",
+        "departmentID": "DEPT101",
+        "departmentName": "Cardiology",
+        "caseNotes": "Patient reported improved symptoms. BP under control.",
+        "investigations": [
+          {
+            "testName": "Complete Blood Count",
+            "report": "Normal",
+            "date": "2024-06-01"
+          },
+          {
+            "testName": "ECG",
+            "report": "Mild irregularity observed",
+            "date": "2024-06-01"
+          }
+        ],
+        "medications": [
+          {
+            "medicineName": "Amlodipine",
+            "dosage": "5mg",
+            "frequency": "Once daily",
+            "duration": "30 days"
+          },
+          {
+            "medicineName": "Paracetamol",
+            "dosage": "500mg",
+            "frequency": "Thrice daily",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "date": "2024-04-15",
+        "consultantID": "DOC002",
+        "consultantName": "Dr. Sharma",
+        "departmentID": "DEPT102",
+        "departmentName": "General Medicine",
+        "caseNotes": "High BP, advised lifestyle changes and medication.",
+        "investigations": [
+          {
+            "testName": "Blood Pressure Check",
+            "report": "160/100 mmHg",
+            "date": "2024-04-15"
+          }
+        ],
+        "medications": [
+          {
+            "medicineName": "Amlodipine",
+            "dosage": "5mg",
+            "frequency": "Once daily",
+            "duration": "30 days"
+          }
+        ]
+      }
+    ]
+  }
+}
