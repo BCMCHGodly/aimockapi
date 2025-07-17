@@ -1,0 +1,44 @@
+{
+  "patient": {
+    "regNo": "REG123456",
+    "name": "John Doe",
+    "dob": "2000-09-12",
+    "gender": "Male",
+    "FirstVisitInfo ": {
+      "hospital": true,
+      "department": true,
+      "doctor": true,
+      "clinic": true
+    },
+    "vitals": {
+      "bloodPressure": "120/80 mmHg",
+      "GRBS": "130 mg/dL"
+    },
+    "encounter": [
+      {
+        "encounterId": 123456798,
+        "date": "2025-06-31",
+        "departmentId": "",
+        "departmentName": "",
+        "doctorId": "12346",
+        "doctorName": "Test Doctor",
+        "caseNotes": [
+          {
+            "head": "Presenting Complaints",
+            "text": "<div><p>This is a test data</p><b>Covid Status : Yes </b></div>"
+          },
+          {
+            "head": "Hostory",
+            "text": "<div><p>This is a test data 2</p><b>Covid Status : Yes </b></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "consultant": {
+    "consultantId": "USR789",
+    "Name": "Dr. Admin MBBS",
+    "departmentId": "DEPT101",
+    "departmentName": "Cardiology"
+  }
+}
